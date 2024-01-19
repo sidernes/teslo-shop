@@ -31,6 +31,12 @@ docker-compose up -d
 yarn start:dev
 ```
 
+7. Ejecutar SEED(precaucion con el puerto)
+
+```
+localhost:3000/api/v1/seed
+```
+
 ```
 
 ```
