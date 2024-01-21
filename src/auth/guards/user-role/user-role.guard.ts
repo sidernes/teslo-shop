@@ -15,6 +15,7 @@ export class UserRoleGuard implements CanActivate {
   canActivate(
     context: ExecutionContext,
   ): boolean | Promise<boolean> | Observable<boolean> {
+    console.log('UserRoleGuard');
     const rvalidRoles: string[] = this.roles.get('roles', context.getHandler());
     if (!rvalidRoles) return true;
     if (rvalidRoles.length == 0) return true;
