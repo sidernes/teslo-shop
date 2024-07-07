@@ -45,7 +45,6 @@ Teslo API is a powerful backend application built with NestJS, designed to handl
 - Yarn
 - Docker
 - Nest CLI (optional but recommended)
-- Mapbox API key
 
 ## Getting Started
 
