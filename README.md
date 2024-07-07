@@ -7,7 +7,7 @@
 
 # Teslo Shop `NestJS Backend`
 
-Teslo API is a powerful backend application built with NestJS, designed to handle various logistical operations efficiently. The application includes comprehensive features such as JWT-based access validation, WebSocket support, file management, a complete RESTful API, Docker container deployment, and robust database handling.
+Teslo API es una poderosa aplicación backend creada con NestJS, diseñada para manejar diversas operaciones logísticas de manera eficiente. La aplicación incluye funciones integrales como validación de acceso basada en JWT, compatibilidad con WebSocket, administración de archivos, una API RESTful completa, implementación de contenedores Docker y manejo sólido de bases de datos.
 
 ## Technologies Used
 
