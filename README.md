@@ -7,32 +7,13 @@
 
 # Teslo API
 
-1. Clonar el proyecto
+Teslo API is a powerful backend application built with NestJS, designed to handle various logistical operations efficiently. The application includes comprehensive features such as JWT-based access validation, WebSocket support, file management, a complete RESTful API, Docker container deployment, and robust database handling.
 
-2. Instalar las dependecias
+### Run iOS Simulator
+```sh
+# Run with yarn
+yarn run ios
 
-```
-yarn install
-```
-
-3. Clonar el archivo `.env.example` y renombrarlo a `.env`
-
-4. Cambiar las variables de entorno en el archivo `.env`
-
-5. Levantar la base de datos
-
-```
-docker-compose up -d
-```
-
-6. Correr en modo desarrollo
-
-```
-yarn start:dev
-```
-
-7. Ejecutar SEED(precaucion con el puerto)
-
-```
-localhost:3000/api/v1/seed
+# or Run with NPM
+npm run ios
 ```
