@@ -51,33 +51,29 @@ Teslo API is a powerful backend application built with NestJS, designed to handl
 
 Follow these instructions to set up and run the application on your local machine.
 
-### Run iOS Simulator
+#### 1. Clone the repository
 ```sh
-# 1. Clone the repository
 https://github.com/sidernes/04-teslo-shop.git
 ```
-
+#### 2. Install dependencies
 ```sh
-# 2. Install dependencies
 yarn install
 ```
 
-3. Clone the `.env.example` file and rename it to `.env`
+#### 3. Clone the `.env.example` file and rename it to `.env`
 
-4. Change the environment variables in the `.env` file
+#### 4. Change the environment variables in the `.env` file
 
-
+#### 5. Start the database using Docker
 ```sh
-# 5. Start the database
 docker-compose up -d
 ```
-
+#### 6. Run in development mode
 ```sh
-# 6. Run in development mode
 yarn start:dev
 ```
 
+#### 7. Execute SEED (be cautious with the port)
 ```sh
-# 7. Execute SEED (be cautious with the port)
 localhost:3000/api/v1/seed
 ```
