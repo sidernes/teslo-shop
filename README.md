@@ -36,27 +36,3 @@ yarn start:dev
 ```
 localhost:3000/api/v1/seed
 ```
-
-```
-
-```
-
-# Practicas
-
-> [!NOTE]
-> Aqui se encuentran las practicas realizadas en el curso de NestJS
-
-> [!TIP]
-> Para ver el codigo de cada practica, cambiar a la rama correspondiente
-
-> [!WARNING]
-> Las practicas se encuentran en la rama `master`
-
-> [!IMPORTANT]
-> Para ver el codigo de cada practica, cambiar a la rama correspondiente
-
-> [!CAUTION]
-> Las practicas se encuentran en la rama `master`
-
-> [!DANGER]
-> Para ver el codigo de cada practica, cambiar a la rama correspondiente
