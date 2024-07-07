@@ -9,7 +9,7 @@
 
 Teslo API es una poderosa aplicación backend creada con NestJS, diseñada para manejar diversas operaciones logísticas de manera eficiente. La aplicación incluye funciones integrales como validación de acceso basada en JWT, compatibilidad con WebSocket, administración de archivos, una API RESTful completa, implementación de contenedores Docker y manejo sólido de bases de datos.
 
-## Technologies Used
+## Tecnologias
 
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
