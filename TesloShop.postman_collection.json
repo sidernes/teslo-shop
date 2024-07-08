@@ -1,0 +1,291 @@
+{
+	"info": {
+		"_postman_id": "1d826ee8-5559-4a90-852f-4fb72220fd94",
+		"name": "NestCurso",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21092163"
+	},
+	"item": [
+		{
+			"name": "cars-get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cars-get/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cars/97ec7397-c813-4564-961c-01f89e512be5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cars",
+						"97ec7397-c813-4564-961c-01f89e512be5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cars-post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "brand",
+							"value": "JEEP",
+							"type": "text"
+						},
+						{
+							"key": "color",
+							"value": "green",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "4",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cars-delete/id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost:3000/cars/33c03883-0756-4097-a08f-51bc83aeaf14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cars",
+						"33c03883-0756-4097-a08f-51bc83aeaf14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cars-patch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "brand",
+							"value": "NISSAN",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "color",
+							"value": "blue",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "5cc6aed5-d906-4536-b9fc-049666a4d38b",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/cars/1c234ea4-1938-4fcb-8993-6704ce421b53",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cars",
+						"1c234ea4-1938-4fcb-8993-6704ce421b53"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands-get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/brands",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands-get-id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/brands/238092ec-9fdd-4e00-8409-9b193b88eaaa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands",
+						"238092ec-9fdd-4e00-8409-9b193b88eaaa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands-patch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Ford2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/brands/238092ec-9fdd-4e00-8409-9b193b88eaaa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands",
+						"238092ec-9fdd-4e00-8409-9b193b88eaaa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands-delete/id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/brands/7a90f3da-5da4-417a-bfa2-0494a87c00b6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands",
+						"7a90f3da-5da4-417a-bfa2-0494a87c00b6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands-post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Jeep",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/brands",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"brands"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/seed",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"seed"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
