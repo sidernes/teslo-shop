@@ -54,6 +54,7 @@ Follow these instructions to set up and run the application on your local machin
 ```sh
 https://github.com/sidernes/04-teslo-shop.git
 ```
+
 #### 2. Install dependencies
 ```sh
 yarn install
@@ -67,6 +68,7 @@ yarn install
 ```sh
 docker-compose up -d
 ```
+
 #### 6. Run in development mode
 ```sh
 yarn start:dev
@@ -76,3 +78,5 @@ yarn start:dev
 ```sh
 localhost:3000/api/v1/seed
 ```
+> [!IMPORTANT]
+> #### 8. Load the `TesloShop.postman_collection.json` file into your postman
