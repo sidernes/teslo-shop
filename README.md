@@ -52,7 +52,7 @@ Follow these instructions to set up and run the application on your local machin
 
 #### 1. Clone the repository
 ```sh
-https://github.com/sidernes/04-teslo-shop.git
+https://github.com/sidernes/teslo-shop.git
 ```
 
 #### 2. Install dependencies
