@@ -79,4 +79,4 @@ yarn start:dev
 localhost:3000/api/v1/seed
 ```
 > [!IMPORTANT]
-> #### 8. Load the `TesloShop.postman_collection.json` file into your postman
+> #### 8. Load the `TesloShop.postman_collection.json` file into your postman to know the APIRest endpoits
